@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/k-schrattenholzer/magic-eight-ball">
-    <img src="images/cosmic answer ball logo.png" alt="Logo" width="80" height="80">
+    <img src="images/cosmic answer ball logo.png" alt="Logo" width="200" height="200">
   </a>
 
   <h3 align="center">Cosmic Answer Ball</h3>
