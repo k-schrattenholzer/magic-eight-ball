@@ -8,7 +8,6 @@
     <br/>
     <br/>
     <a href="https://cosmicanswerball.netlify.app">View Demo</a>
-    .
   </p>
 </p>
 
@@ -54,16 +53,6 @@ npm install
 npm install
 ```
 
-### Creating A Pull Request
-
-
-
 ## Authors
 
 * **Kae Schrattenholzer** - *Software Engineer* - [Kae Schrattenholzer](https://github.com/k-schrattenholzer) - **
-
-## Acknowledgements
-
-* []()
-* []()
-* []()
