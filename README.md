@@ -3,13 +3,11 @@
     <img src="images/cosmic answer ball logo.png" alt="Logo" width="500" height="500">
   </a>
 
-  <h3 align="center">Cosmic Answer Ball</h3>
-
   <p align="center">
     Digital Divination for Fun and Guidance
     <br/>
     <br/>
-    <a href="https://github.com/k-schrattenholzer/magic-eight-ball">View Demo</a>
+    <a href="https://cosmicanswerball.netlify.app">View Demo</a>
     .
   </p>
 </p>
