@@ -37,7 +37,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    outline: 1px solid black;
+    outline: .75em solid rgba(198, 32, 217, 0.33);
     line-height: 6rem;
     border-radius: 50%;
     font-size: 1.25rem;
@@ -56,7 +56,7 @@
       height: 200%;
       width: 200%;
       box-sizing: border-box;
-      background-color: #6716d0;
+      background-color: #7144ac;
       border-radius: 40%;
       animation: spin 10s linear;
       animation-fill-mode: both;
