@@ -1,16 +1,13 @@
 <p align="center">
   <a href="https://github.com/k-schrattenholzer/magic-eight-ball">
-    <img src="images/cosmic answer ball logo.png" alt="Logo" width="80" height="80">
+    <img src="images/cosmic answer ball logo.png" alt="Logo" width="500" height="500">
   </a>
-
-  <h3 align="center">Cosmic Answer Ball</h3>
 
   <p align="center">
     Digital Divination for Fun and Guidance
     <br/>
     <br/>
-    <a href="https://github.com/k-schrattenholzer/magic-eight-ball">View Demo</a>
-    .
+    <a href="https://cosmicanswerball.netlify.app">View Demo</a>
   </p>
 </p>
 
@@ -42,7 +39,7 @@ npm install npm@latest -g
 1. Clone the repo
 
 ```sh
-git clone https://github.com/your_username_/Project-Name.git
+git clone https://github.com/k-schrattenholzer/magic-eight-ball.git
 ```
 
 2. Install NPM packages
@@ -53,19 +50,9 @@ npm install
 
 3. Run on Local Server
 ```sh
-npm install
+npm run dev
 ```
-
-### Creating A Pull Request
-
-
 
 ## Authors
 
 * **Kae Schrattenholzer** - *Software Engineer* - [Kae Schrattenholzer](https://github.com/k-schrattenholzer) - **
-
-## Acknowledgements
-
-* []()
-* []()
-* []()
