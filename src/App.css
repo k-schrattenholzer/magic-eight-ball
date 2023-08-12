@@ -62,6 +62,10 @@
       animation-fill-mode: both;
     }
   }
+
+  .none {
+    display: none;
+  }
   
   @keyframes spin {
     0% {

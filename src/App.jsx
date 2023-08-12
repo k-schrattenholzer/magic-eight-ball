@@ -107,7 +107,7 @@ function App() {
         </motion.button>
       </div>
     { response &&      
-    <div className='eightBall'>
+    <div className={response === '' ? "none" : "eightBall"}>
             <div className='outlook'>
               {outlook ?? <p> looks: {outlook} </p>}
             </div>
