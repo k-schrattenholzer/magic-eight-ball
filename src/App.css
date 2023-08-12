@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;1,400;1,500;1,700&family=UnifrakturMaguntia&display=swap');
 
 #root {
   max-width: 1280px;
@@ -18,7 +18,41 @@
   -moz-animation: Gradient 35s ease infinite;
   animation: Gradient 35s ease infinite;
   font-family: 'UnifrakturMaguntia', cursive;
-  }
+}
+
+.shakeButton {
+  font-family: 'Karla', sans-serif;
+    font-style: italic;
+  /* font-weight: 700; */
+  /* font-family: 'Caprasimo', cursive; */
+  letter-spacing: 0.25em;
+}
+
+.eightBall {
+    padding: 2em;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 30%; */
+    outline: 1px solid black;
+    /* border-radius: 50%; */
+    width: 250px;
+    height: 250px;
+    line-height: 6rem;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    color: #fff;
+    text-align: center;
+    background: #000
+}
+
+h1 {
+  font-size: 5rem;
+  margin-top: 10rem;
+  margin-bottom: 4rem;
+}
 
 @-webkit-keyframes Gradient {
   0% {

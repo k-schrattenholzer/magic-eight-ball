@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { motion } from "framer-motion"
 import './App.css'
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
       outlook: 'pos'
     },
     {
-      res:  'Without a doubt.',
+      res: 'Without a doubt.',
       outlook: 'pos'
     },
     {
@@ -87,6 +88,8 @@ function App() {
     }
   ]
   const randomResponse = () => {
+    setResponse('')
+    setOutlook('')
     const random = Math.floor(Math.random() * responseArray.length)
     setResponse(responseArray[random].res)
     setOutlook(responseArray[random].outlook)
@@ -95,13 +98,24 @@ function App() {
     <div className='home'>
       <h1>magic eight</h1>
       <div className="card">
-        <button onClick={randomResponse}>
-          shake me
-        </button>
-        
-          { outlook ?? <p> looks: {outlook} </p>}
-        { response ?? <p> {response} </p>}
+        <motion.button
+          onClick={randomResponse}
+          whileTap="tap"
+          className='shakeButton'
+        >
+          SHAKE
+        </motion.button>
       </div>
+    { response &&      
+    <div className='eightBall'>
+            <div className='outlook'>
+              {outlook ?? <p> looks: {outlook} </p>}
+            </div>
+            <div className='response'>
+              {response ?? <p> {response} </p>}
+            </div>
+          </div>
+          }
     </div>
   )
 }
